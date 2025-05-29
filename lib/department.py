@@ -1,7 +1,6 @@
 from lib.__init__ import CURSOR, CONN
 
 class Department:
-    
 
     def __init__(self, name, location, id=None):
         if not name or not location:
